@@ -36,7 +36,7 @@ This tutorial outlines the <!--prerequisites and-->installation of the open-sour
 <h2>Installation Steps</h2>
 
 <p>
-<img src="C:\Users\esrom\iCloudPhotos\Photos" height="60%" width="60%" alt="Insatall osTicket"/>
+<img src="" height="60%" width="60%" alt="Install osTicket">
 </p>
 <p>
 I created the RG(Resourse Group) first and went on to create the VM. So the RG is just a container that holds related resources, like VM or other applications. When creating the VM, it'll ask for a Login credentials to be created. When that's completed it's advised to write down or memorize them because that's what's used to login to RDP.
