@@ -57,10 +57,10 @@ Before starting the installation process, I enabled IIS (Internet Information Se
 </p>
 <br />
 
-<p>
-<img src="" height="25%" width="25%" alt=""/>
-</p>
-<p>
+<h4>Instlation Continue</h4>
 
-</p>
+<p>
+Using PHP manager and IIS I was able to rgegister PHP so the server knows that PHP exist in the computer. Then I move on to begain my instalation of osTicket by first starting to extarct all the osTicket files, then opened the extracted file and moved it into a new folder. Then Got to this page</p> <img src="osTicket.jpg" height="25%" width="25%" alt="osTicket"/> and if I'm guessing it's some kinda pre-check, that shows what's not required but recommended(pls correct or modify). So I went back and used IIS to fix or enable the problem. Before the installation I filled out the required field of basic info(not using real names) but the last part about the database settings field is another database(by another meaning, a backend database has been created already) by actually loging into the backend database and creating another one just for osTicket then provide the credentials for it. So I went ahead and installed 'HeidiSQL' which is an application that allows to make connection into the database. Now that's done, we can continue <img src="" height="25%" width="25%" alt=""/>
+
 <br />
+<img src="" height="25%" width="25%" alt=""/>
