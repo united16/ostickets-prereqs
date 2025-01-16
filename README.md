@@ -42,7 +42,7 @@ I created a Virtual Machine (VM) with 4 vCPUs to ensure optimal performance duri
 </p>
 <br />
 <p>
-<h4>Instlation</h4>
+<h4>Installation</h4>
 
 <h5>PHP</h5> <br />
  <img src="PHP.jpg" height="25%" width="25%" alt="PHP"/>
@@ -57,10 +57,10 @@ Before starting the installation process, I enabled IIS (Internet Information Se
 </p>
 <br />
 
-<h4>Instlation Continue</h4>
+<h4>Installation Continue</h4>
 
 <p>
-Using PHP manager and IIS I was able to rgegister PHP so the server knows that PHP exist in the computer. Then I move on to begain my instalation of osTicket by first starting to extarct all the osTicket files, then opened the extracted file and moved it into a new folder. Then Got to this page</p> <img src="osTicket.jpg" height="25%" width="25%" alt="osTicket"/> and if I'm guessing it's some kinda pre-check, that shows what's not required but recommended(pls correct or modify). So I went back and used IIS to fix or enable the problem. Before the installation I filled out the required field of basic info(not using real names) but the last part about the database settings field is another database(by another meaning, a backend database has been created already) by actually loging into the backend database and creating another one just for osTicket then provide the credentials for it. So I went ahead and installed 'HeidiSQL' which is an application that allows to make connection into the database. Now that's done, we can continue <img src="" height="25%" width="25%" alt=""/>
+Using PHP Manager and IIS, I registered PHP so the server recognized that it existed on the computer. Then, I began my installation of osTicket by first extracting all the osTicket files. After extraction, I opened the extracted folder and moved its contents into a new folder. Then got to this page</p> <img src="osTicket.jpg" height="25%" width="25%" alt="osTicket"/> I believe that this page serves as a pre-check to indicate optional but recommended configurations that ensure optimal performance. To address these issues, I used IIS to fix or enable the required configurations. Before proceeding with the installation, I filled out the required fields for basic information (not using real names). For the 'Database Settings' section, I created a new database specifically for osTicket by logging into the backend database system and setting up a new database dedicated to osTicket. To accomplish this, I installed HeidiSQL, an application that allows connections to the database. <img src="HeidiSQL.jpg" height="25%" width="25%" alt="HeidiSQL"/> Within HeidiSQL, I created a database named 'osTicket' so that whatever operations occur in the browser will be saved in that database. After ensuring all configurations were complete, I began the installation process. Finally, the installation is successful, and osTicket is fully installed. <img src="osTicket and HeidiSQL.jpg" height="25%" width="25%" alt="osTicket and HeidiSQL"/>
 
 <br />
-<img src="" height="25%" width="25%" alt=""/>
+
